@@ -12,7 +12,7 @@ user_activity = df['screen_name'].value_counts()
 top_users = user_activity.head(15)
 
 # نمایش نتایج
-print("لیست 15 کاربر فعال:")
+print("List of 15 active users:")
 print(top_users)
 
 # تحلیل میزان تاثیرگذاری محتوای 15 کاربر بر کل شبکه
@@ -22,12 +22,12 @@ impact_percentage = (top_users_tweets / total_tweets) * 100
 
 # نمایش نتایج
 print(
-    f"\nمیزان تاثیرگذاری محتوای 15 کاربر بر کل شبکه: {impact_percentage:.2f}%")
+    f"\nThe impact of the content of 15 users on the entire network: {impact_percentage:.2f}%")
 
 # تحلیل و نمایش نمودار میزان فعالیت کاربران
 plt.figure(figsize=(12, 6))
 top_users.plot(kind='bar', color='skyblue')
 plt.title('Number of user activities')
-plt.xlabel('نام کاربری')
+plt.xlabel('User names')
 plt.ylabel('Number of activities')
 plt.show()
