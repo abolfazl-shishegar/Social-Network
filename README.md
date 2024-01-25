@@ -48,6 +48,7 @@ Ensure you have the following Python packages installed:
 - [NLTK](https://www.nltk.org/): The Natural Language Toolkit, a library for the Python programming language that provides tools for working with human language data.
     ```bash
     pip install nltk
+    python -m nltk.downloader vader_lexicon punkt
     ```
 
 - [Matplotlib](https://matplotlib.org/): A comprehensive library for creating static, animated, and interactive visualizations in Python.
@@ -55,7 +56,7 @@ Ensure you have the following Python packages installed:
     pip install matplotlib
     ```
 
-You can install all the requirements at once by running:
+You can install all the requirements at once by running (The nltk must be installed separately):
 
 ```bash
 pip install -r requirements.txt
