@@ -55,6 +55,10 @@ Ensure you have the following Python packages installed:
     ```bash
     pip install matplotlib
     ```
+- [scikit-learn](https://scikit-learn.org/stable/): A machine learning library for Python.
+    ```bash
+    pip install scikit-learn
+    ```
 
 You can install all the requirements at once by running (The nltk must be installed separately):
 
