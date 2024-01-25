@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 
 # خواندن فایل CSV به عنوان DataFrame
-file_path = 'C:/Users/Abolfazl/Downloads/Telegram Desktop/sampeled2_gotTwitter.csv'
+file_path = 'twitter_dataset_8got.csv'
 df = pd.read_csv(file_path)
 
 # تحلیل تعداد فعالیت‌های هر کاربر

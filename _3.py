@@ -7,7 +7,7 @@ from nltk.tokenize import word_tokenize
 from nltk.sentiment import SentimentIntensityAnalyzer
 
 # خواندن دیتاست
-file_path = 'C:/Users/MOHAMMADAMIN/Desktop/sampeled2_gotTwitter.csv'
+file_path = 'twitter_dataset_8got.csv'
 df = pd.read_csv(file_path)
 
 # انتخاب فیلد متن

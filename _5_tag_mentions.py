@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 
 # خواندن داده‌ها از فایل CSV
-file_path = 'C:/Users/MOHAMMADAMIN/Desktop/sampeled2_gotTwitter.csv'
+file_path = 'twitter_dataset_8got.csv'
 df = pd.read_csv(file_path)
 
 # تحلیل جامعه‌های فعال بر اساس mentions_screen_name

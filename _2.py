@@ -2,7 +2,7 @@
 import networkx as nx
 
 # خواندن فایل CSV
-file_path = 'C:/Users/Abolfazl/Downloads/Telegram Desktop/sampeled2_gotTwitter.csv'
+file_path = 'twitter_dataset_8got.csv'
 df = pd.read_csv(file_path)
 
 # ساخت گراف جهت‌دار
