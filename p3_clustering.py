@@ -27,5 +27,5 @@ df.to_csv('clustered_data.csv', index=False)
 
 # نمایش تعداد اعضای هر خوشه
 cluster_sizes = df['cluster'].value_counts()
-print("تعداد اعضای هر خوشه:")
+print("Number of members of each cluster:")
 print(cluster_sizes)
